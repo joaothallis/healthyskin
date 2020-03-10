@@ -3,7 +3,7 @@ use Mix.Config
 # Configure your database
 config :healthyskin, Healthyskin.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "docker",
   database: "healthyskin_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
